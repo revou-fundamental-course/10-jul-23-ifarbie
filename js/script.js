@@ -30,7 +30,7 @@ function hitungBMI() {
     let statusBBOutput = document.getElementById("status-bb-output");
     let hasilOutput = document.getElementById("hasil-output");
 
-    if (usia < 18 || inputTinggiBadan == "" || inputBeratBadan == "") {
+    if (usia < 18 || inputTinggiBadan == "" || inputBeratBadan == "" || beratBadan <= 0 || tinggiBadan <=0) {
         alert("Kamu belum masukkin berat/tinggi badan nih... pastiin juga usia kamu sudah 18 tahun yaa!")
     } 
     else if (usia >= 18) {
